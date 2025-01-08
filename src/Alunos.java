@@ -3,7 +3,7 @@ public abstract class Alunos {
     protected int ra;
     protected String dataNasc;
 
-    public String ToString(){
+    @Override public String toString(){
         return String.format("Nome: %s \n", nome) +
         String.format("ra: %d \n", ra) +
         String.format("data de Nascimento: %s \n", dataNasc);

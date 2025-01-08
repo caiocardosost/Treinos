@@ -8,9 +8,9 @@ public class Alunos_grad extends Alunos {
         this.curso = curso;
     }
 
-    @Override public String ToString(){
-        return super.ToString() + String.format("Aluno de Graduacao \n") +
-        String.format("Curso: %s", curso);
+    @Override public String toString(){
+        return super.toString() + String.format("Aluno de Graduacao \n") +
+        String.format("Curso: %s\n", curso);
     }
     
 }
